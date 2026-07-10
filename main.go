@@ -4,12 +4,15 @@ import "fmt"
 
 func main() {
 
-	loops()
-	slices()
-	arrays()
+	initial1, initial2 := listNames("Future Mulenga")
+	fmt.Println("First Name Initial:", initial1)
+	fmt.Println("Last Name Initial:", initial2)
+	// loops()
+	// slices()
+	// arrays()
 
-	formatStrings()
-	dataTypes()
+	// formatStrings()
+	// dataTypes()
 
 	var firstName string  = "Future" // Explicit type declaration, specifying that firstName is of type string
 	var lastName  = "Mulenga" // Type inference, Go will automatically determine the type based on the value assigned
