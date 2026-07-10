@@ -4,9 +4,11 @@ import "fmt"
 
 func main() {
 
-	initial1, initial2 := listNames("Future Mulenga")
-	fmt.Println("First Name Initial:", initial1)
-	fmt.Println("Last Name Initial:", initial2)
+	maps()
+
+	// initial1, initial2 := listNames("Future Mulenga")
+	// fmt.Println("First Name Initial:", initial1)
+	// fmt.Println("Last Name Initial:", initial2)
 	// loops()
 	// slices()
 	// arrays()
