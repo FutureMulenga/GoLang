@@ -16,6 +16,7 @@ func main() {
 	// formatStrings()
 	// dataTypes()
 
+	pointers()
 	var firstName string  = "Future" // Explicit type declaration, specifying that firstName is of type string
 	var lastName  = "Mulenga" // Type inference, Go will automatically determine the type based on the value assigned
 	greeting := "Hello, my name is " + firstName + " " + lastName // Concatenation of strings using the + operator
